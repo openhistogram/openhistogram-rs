@@ -1,0 +1,20 @@
+[package]
+name = "openhistogram"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = { version = "0.22.1", optional = true }
+byteorder = "1.4.2"
+probability = "0.20.3"
+rand = "0.9.0"
+serde = { version = "1.0.217", optional = true }
+serde_json = { version = "1.0.138", optional = true }
+thiserror = "2.0.11"
+
+[features]
+base64 = ["dep:base64"]
+serde = ["dep:serde", "dep:serde_json"]
+
+[dev-dependencies]
+approx = "0.5.1"
