@@ -13,6 +13,10 @@ categories = ["algorithms"]
 version = "0.1.0"
 edition = "2021"
 
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--generate-link-to-definition"]
+
 [dependencies]
 base64 = { version = "0.22.1", optional = true }
 byteorder = "1.4.2"
