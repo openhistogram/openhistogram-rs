@@ -10,7 +10,7 @@ Fast, dense, stable auto-binning histograms.
 """
 keywords = ["histogram","math","statistics"]
 categories = ["algorithms"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [package.metadata.docs.rs]
